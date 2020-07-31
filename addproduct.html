@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="addproduct.css">
+</head>
+
+<body>
+    <div class="header">
+        <a href="#" class="logo">Inventory Management</a>
+        <div class="header-right">
+            <a href="product_list.html">Products</a>
+            <a href="/">logout</a>
+        </div>
+    </div>
+    <div class="container">
+        <h2><u> Add product</u></h2>
+        <form action="" method="post">
+
+            <label for="name"><b>Product Name</b></label><br><br>
+            <input type="text" placeholder="Enter name" name="name" required>
+            <br>
+            <label for="type"><b>Type</b></label><br><br>
+            <input type="text" placeholder="Enter type" name="type" required>
+            <br>
+            <label for="quan"><b>Quantity</b></label><br><br>
+            <input type="number" placeholder="Enter quantity" name="quan" required>
+            <br>
+            <label for="desc"><b>Description</b></label><br><br>
+            <input type="text" placeholder="Enter description" name="desc" required>
+            <br>
+            <label for="category"><b>Product Category</b></label><br><br>
+            <select name="category" id="category">
+                <option value="test">Select Category </option>
+                <option value="test1">test1</option>
+                <option value="test2">test2</option>
+                <option value="test3">test3</option>
+              </select>
+            <br>
+            <div>
+                <button type="submit">Add Product</button>
+              </div>
+        </form>
+    </div>
+    <div class="footer">
+        <p style="float: right;margin-right: 2%;">@copyright,2020</p>
+    </div>
+</body>
+
+</html>

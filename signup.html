@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="signup.css">
+</head>
+
+<body>
+    <div class="header">
+        <a href="#" class="logo">Inventory Management</a>
+        <div class="header-right">
+            <a href="/">Home</a>
+        </div>
+    </div>
+    <div class="container">
+        <h2><u> Signup Form</u></h2>
+        <form method="post">
+
+            <label for="name"><b>Name</b></label><br><br>
+            <input type="text" placeholder="Enter name" name="name" required>
+            <br>
+            <label for="email"><b>Email</b></label><br><br>
+            <input type="email" placeholder="Enter email" name="email" required>
+            <br>
+            <label for="contact"><b>Contact no</b></label><br><br>
+            <input type="number" placeholder="Enter Contact" name="contact" required>
+            <br>
+            <label for="cpw"><b>Password</b></label><br><br>
+            <input type="password" placeholder="Enter password" name="cpw" required>
+            <br>
+            <label for="psw"><b>Confirm Password</b></label><br><br>
+            <input type="password" placeholder="Enter Password" name="psw" required>
+            <br><br>
+            <div>
+                <button type="button" onclick="navigateUser()">Signup</button>
+                &nbsp;&nbsp;
+                <label>
+                  <a href="login.html">Already a user login here.</a>
+                </label>
+              </div>
+        </form>
+    </div>
+    <div class="footer">
+        <p style="float: right;margin-right: 2%;">@copyright,2020</p>
+    </div>
+</body>
+<script>
+    function navigateUser(){
+      window.location.href = "home.html";
+    }
+  </script>
+
+</html>

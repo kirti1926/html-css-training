@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="login.css">
+</head>
+
+<body>
+  <div class="header">
+    <a href="#" class="logo">Inventory Management</a>
+    <div class="header-right">
+      <a href="/">Home</a>
+    </div>
+  </div>
+  <div class="container">
+    <h2><u>Login Form</u></h2>
+    <form method="post">
+
+      <label for="uname"><b>Username</b></label><br><br>
+      <input type="text" placeholder="Enter Username" name="uname" required>
+      <br>
+      <label for="psw"><b>Password</b></label><br><br>
+      <input type="password" placeholder="Enter Password" name="psw" required>
+      <br>
+      <label>
+        <input type="checkbox" name="remember"> Remember me
+      </label>
+      <br><br>
+      <div>
+        <button type="button" onclick="navigateUser()">Login</button>
+        &nbsp;&nbsp;
+        <label>
+          <a href="signup.html">New User? Register here</a>
+        </label>
+      </div>
+    </form>
+  </div>
+  <div class="footer">
+    <p style="float: right;margin-right: 2%;">@copyright,2020</p>
+</div>
+</body>
+<script>
+  function navigateUser(){
+    window.location.href = "home.html";
+  }
+</script>
+
+</html>

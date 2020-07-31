@@ -1,0 +1,30 @@
+* {
+    box-sizing: border-box;
+}
+
+img {
+    width: 60%;
+}
+
+.column {
+    text-align: center;
+}
+
+.row{
+    margin-top: 5%;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+td,
+th {
+    border: 1px solid #dddddd;
+    padding: 8px;
+}
+.addproduct{
+    margin-top: 2%;
+    margin-right: 2%;
+    float: right;
+}
